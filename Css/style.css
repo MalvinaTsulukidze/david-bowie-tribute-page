@@ -1,5 +1,6 @@
 body {
-    font-family: system-ui;
+    font-family: 'Allerta Stencil';
+    font-size: 22px;
     background: #242221;
     border: 2px solid grey;
     border-radius: 25px;
@@ -20,13 +21,18 @@ body {
     flex-wrap: wrap;
     padding: 0 4px;
   }
-  
+  #image1{
+    height:65vh;
+  }
+  #image{
+    height:33vh;
+  }
   .column {
     flex: 20%;
     max-width: 25%;
     padding: 0 4px;
   }
-  
+
   .column img {
     margin-top: 8px;
     vertical-align: middle;
